@@ -5,8 +5,11 @@
         <meta charset="UTF-8"/>
         <Title>Página inicial</Title>
         <link rel="shortcut icon" type="imagem/x-icon" href="../Imagens/icone.ico"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/estilo.css"><!-- Conectando o HTML ao CSS -->
+    
+    
     </HEAD>
-    <BODY>
+    <body>
         <!-- Todo o conteúdo do seu site -->
         <!-- Cabeçalho -->
         <header id="paginaInicial">
@@ -14,19 +17,19 @@
             <h4>Melhor filme de sites piratas do Brasil</h4>
             <nav>
                 <ul>
-                    <li>Página Inicial</li>
-                    <li>Sobre</li>
-                    <li>Top 10 Filmes</li>
-                    <li>Curiosidades</li>
-                    <li>Seja um cliente</li>
+                    <a href="#paginaInicial"><li>Página Inicial</li></a>
+                    <a href="#sobre"><li>Sobre</li></a>
+                    <a href="#dezFilmes"><li>Top 10 Filmes</li></a>
+                    <a href="#curiosidades"><li>Curiosidades</li></a>
+                    <a href="#paginaInicial"><li>Seja um cliente</li></a>
                 </ul>
             </nav>
-            <img src="../Imagens/imagemPrincipal.jpg" alt="Catálogo dos principais filmes deste site"/>
+            <img id="capa" src="../Imagens/imagemPrincipal.jpg" alt="Catálogo dos principais filmes deste site"/>
         </header>
         
         <!-- Parte dedicada ao sobre do site -->
         <div id="sobre">
-            <h2>História</h2>
+            <h2 id="history">História</h2>
             <br> A PopularFilms foi fundada por Reed Hastings e Marc Randolph, em 1997. <br> O projeto inicial da empresa tem origem na ideia de alugar DVDs, pelo correio. Sendo assim, um ano depois, foi lançado o site da companhia, para cumprir esse objetivo. Em 1999 estreou um tipo de serviço de assinatura e, com isso, os DVDs poderiam ser alugados sem um limite mensal ou multa por atraso.<br>
                 Atualmente, a PopularFilms oferece o streaming de vídeo — o que permite o acesso instantâneo a filmes, séries, documentários, shows e animações presentes no catálogo. <br> O serviço está disponível em 190 países e em mais de 30 idiomas. Com isso, a somatória de assinantes pelo mundo é de cerca de 200 milhões, segundo a plataforma. </p>
         </div>
